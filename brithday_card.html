@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: rgb(255, 255, 255);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      display: inline-block;
+      max-width: 500px;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #ff66b2;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff3385;
+    }
+
+    #surprise {
+      font-size: 18px;
+      color: #d63384;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎉 Wish You A Very Very Happy One Year to our relationship Durvaa ,Getting together and grow stay always with mi ,sorry for my mistakes,and lov u so much, [Your", Hrushi]! 🎂</h1>
+    <img src="birthday.jpg" alt="Birthday Photo" birthday.jpg (3).jpeg>
+    <p>Wishing you a wonderful day filled with love and all the happiness, laughter, and wonderful!</p>
+    <button onclick="showMessage()">Click for a Surprise 🎁</button>
+    <p id="surprise"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('surprise').innerText = "🎈 You are amazing and loved –  we are enjoying our special day!";
+    }
+  </script>
+</body>
+</html>
